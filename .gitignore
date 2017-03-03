@@ -1,0 +1,5 @@
+// ignore credential file
+config.txt
+
+// ignore node things
+node_modules

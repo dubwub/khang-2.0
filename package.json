@@ -1,0 +1,23 @@
+{
+  "name": "khang-2.0",
+  "version": "1.0.0",
+  "description": "a strictly better version of my roommate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dubwub/khang-2.0.git"
+  },
+  "author": "darwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dubwub/khang-2.0/issues"
+  },
+  "homepage": "https://github.com/dubwub/khang-2.0#readme",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
