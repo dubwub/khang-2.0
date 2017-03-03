@@ -68,6 +68,9 @@ fs.readFile('config.txt', 'utf8', function(err, data) {
 		    		sendDelayedMessage("" + getRandomInt(1, 10) + " " + getRandomInt(1, 10) +
 		    			" " + getRandomInt(1, 10) + " " + getRandomInt(1, 10), message.threadID, api, 100);
 		    	}
+		    	else if (message.body == "khang who is your creator") {
+		    		sendDelayedMessage("https://github.com/dubwub/khang-2.0", message.threadID, api, 300);
+		    	}
 	    	}
 	    });
 	});
